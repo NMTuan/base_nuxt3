@@ -16,6 +16,7 @@ export default defineNuxtConfig({
             {
                 vueI18n: './locales/i18n.config.ts'
             }
-        ]
+        ],
+        '@unocss/nuxt'
     ]
 })
