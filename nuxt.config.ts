@@ -9,7 +9,8 @@
  */
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    devtools: { enabled: true },
+    devtools: { enabled: false },
+    css: ['@unocss/reset/normalize.css'],
     modules: [
         [
             '@nuxtjs/i18n',
@@ -17,6 +18,10 @@ export default defineNuxtConfig({
                 vueI18n: './locales/i18n.config.ts'
             }
         ],
-        '@unocss/nuxt'
-    ]
+        '@unocss/nuxt',
+        '@pinia/nuxt'
+    ],
+    imports: {
+        dirs: ['stores']
+    }
 })

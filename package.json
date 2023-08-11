@@ -18,6 +18,8 @@
     "nuxt": "^3.6.5"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "pinia": "^2.1.6",
     "vite": "^4.4.9"
   }
 }

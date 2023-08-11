@@ -11,6 +11,7 @@
   <div>
     <ComLocal />
     <ComUnocss />
+    <ComPinia />
     <NuxtWelcome />
   </div>
 </template>
