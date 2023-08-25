@@ -13,6 +13,7 @@
     <ComUnocss />
     <ComPinia />
     <ComElement />
+    <ComMode />
     <NuxtWelcome />
   </div>
 </template>

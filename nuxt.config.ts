@@ -2,7 +2,7 @@
  * @Author: NMTuan
  * @Email: NMTuan@qq.com
  * @Date: 2023-08-10 16:42:21
- * @LastEditTime: 2023-08-11 17:43:18
+ * @LastEditTime: 2023-08-25 15:52:23
  * @LastEditors: NMTuan
  * @Description:
  * @FilePath: \base_nuxt3\nuxt.config.ts
@@ -20,7 +20,8 @@ export default defineNuxtConfig({
         ],
         '@unocss/nuxt',
         '@pinia/nuxt',
-        '@element-plus/nuxt'
+        '@element-plus/nuxt',
+        '@nuxtjs/color-mode'
     ],
     imports: {
         dirs: ['stores']
@@ -38,5 +39,8 @@ export default defineNuxtConfig({
         icon: 'ElIcon',
         importStyle: 'scss',
         themes: ['dark']
+    },
+    colorMode: {
+        classSuffix: ''
     }
 })
